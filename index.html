@@ -25,43 +25,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <style>
-    body {margin:0;}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
-}
-
-        .navbar {
+        /* .navbar {
         overflow: hidden;
         position: fixed;
         background-color: rgb(156, 11, 240);
 
-    }
+    } */
     .logo {
         position: relative;
         font-size: 25px;
@@ -71,7 +40,7 @@
         margin-left: 10px
     }
 
-    .navbar a {
+    /* .navbar a {
         display: block;
         font-size: 25px;
         color: black;
@@ -80,15 +49,16 @@
         border-bottom: 3px solid transparent;
 
 
-    }
+  
+    } */
 
-
+/* 
     .navbar a:hover {
 
         border-bottom: 3px solid rgb(0, 0, 0);
 
     }
-
+ */
 
 
     
@@ -231,7 +201,7 @@
 
 <body>
     <div class="main">
-        <div class="container-0">
+        <!-- <div class="container-0">
 
 
             <header class="header">
@@ -261,7 +231,41 @@
 
                     </div>
             </header>
-        </div>
+        </div> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#section1">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section2">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section3">Expert</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section4">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section5">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#section6">Client</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#section7">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section8">Contact</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
     </div>
     <div id="section1">
         <div class="container">
